@@ -1,4 +1,4 @@
-# vim-asterisk-nojump
+# asterisk-nojump.nvim
 
 カーソル位置を動かさずに `*` キーで検索を行います。
 
@@ -10,5 +10,5 @@
 
 ```lua
 {
-  "taiwork/vim-asterisk-nojump",
+  "taiwork/asterisk-nojump.nvim",
 }
