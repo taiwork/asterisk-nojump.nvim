@@ -1,0 +1,1 @@
+-- require('plenary.test_harness'):setup_jest()

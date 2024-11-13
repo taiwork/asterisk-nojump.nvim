@@ -1,0 +1,20 @@
+-- local nojump = require('nojump')
+--
+-- describe('nojump plugin', function()
+--   it('asterisk_no_move should execute * search without moving cursor', function()
+--     -- カーソル位置を設定
+--     vim.api.nvim_buf_set_lines(0, 0, -1, false, {"This is a test line with test word."})
+--     vim.api.nvim_win_set_cursor(0, {1, 10}) -- 'test'
+--
+--     -- 関数を実行
+--     nojump.asterisk_no_move()
+--
+--     -- 検索が実行されたか確認
+--     local search_pattern = vim.fn.getreg('/')
+--     assert.equals('\\<test\\>', search_pattern)
+--
+--     -- カーソル位置が変更されていないことを確認
+--     local cursor_pos = vim.api.nvim_win_get_cursor(0)
+--     assert.equals({1, 10}, cursor_pos)
+--   end)
+-- end)
